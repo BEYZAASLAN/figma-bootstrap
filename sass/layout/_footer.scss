@@ -1,0 +1,42 @@
+.footer {
+  background-color: #fff;
+
+  width: 100%;
+
+  font-family: Poppins;
+  color: #666666;
+  overflow: hidden;
+
+  a {
+    color: var(--FONT-SECONDARY, #666);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 4rem;
+    text-decoration: none;
+   }
+ }
+
+.form-group {
+  text-align: center;
+  justify-content: center;
+
+  p {
+  display: flex;
+  color: var(--FONT-SECONDARY, #666);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; 
+  margin-bottom: 1rem;
+  }
+}
+ #email {
+  padding: 19px;
+  width: 15rem;
+}
+
+
+
