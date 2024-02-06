@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Figma Project</title>
+    <link rel="stylesheet" href="./sass/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  </head>
+  <body>
+    
+
+      <div class="header-color">
+      <nav class="navbar navbar-expand-lg" >
+        <div class="container">
+          <div id="cornerBlur"></div>
+            <img src="images/company_logo.png" class="logo">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mx-5">
+                    <li class="nav-item">
+                        <a class="nav-link text-black" aria-current="page" href="#">Crytocurrency</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-black" href="#">Exchanges</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-black" href="#">Watchlist</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-black" href="#">NFT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-black" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Products
+                            </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <div class="buttons d-flex justify-content-end gap-4 " id="navbarNavDropdown">
+                            <button type="button" class="nav-button btn btn-outline-primary">Log In</button>
+                            <button type="button" class="nav-button btn btn-primary">Sign Up</button>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+<!-- HEADER KISMI -->
+      <header class="mb-5 mt-0 header-section ">
+       <div id="cornerBlurTwo"></div>
+        <div class="container">
+          <div class="row align-items-center justify-content-center ">
+            <div class="col-md-12 col-lg-6 position-relative ">
+              <div class="px-5 mt-5 text-center text-lg-start">
+              <p class="text-primary fw-bolder">SIGN UP TODAY</p>
+              <h1 class="my-4">The World’s <span class="highlight-words"><br>Fastest Growing <br> </span>
+                Crypto Web App</h1>
+                <p class="opacity-75 ">Buy and sell 200+ cryptocurrencies with 20+ flat currencies using bank transfers or your credit/debit card.</p>
+                <div class=" header-buttons d-block d-lg-flex d-sm-flex justify-content-center  justify-content-lg-start gap-3 gap-lg-4 ">
+                <button type="button" class=" header-button btn btn-primary rounded-5 px-5 py-2" >Get Started</button>
+                <button type="button" class=" header-button dropdown btn btn-outline-primary rounded-5 px-5 py-2">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Download App
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Android</a></li>
+                    <li><a class="dropdown-item" href="#">IOS</a></li>
+                  </ul>
+                </button>
+              </div>
+              </div>
+
+              <div class="position-absolute Star_header d-none d-xl-block text-center text-lg-start">
+                <img width="30" height="30" class="img-fluid" src="images/yildiz.png" alt="">
+              </div>
+      
+              <div class="position-absolute circle_header d-none d-xl-block text-center text-lg-start">
+                <img width="20" height="20" class="img-fluid" src="images/circle_header.png" alt="circle_header">
+              </div>
+
+
+
+            </div>
+            <div class="col-md-12 col-lg-6 d-none d-lg-block">
+              <img class="img-fluid" src="images/btc_world.png" alt="bitcoin-world">
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
+
+      
+
+      <!-- TABLO BULUNAN SECTION <div class="rounded-5 bg-secondary "> -->
+
+      <section class="mb-4 "> 
+        <div class="container" id="table-container">
+          <div class="rounded-5 bg-white py-5 table_location table-responsive shadow table-custom">
+          <div class="row gx-5 d-flex justify-content-center ">
+            <div class="col-sm-12 col-lg-6 col-xl-4 border-end">
+              <div class=" text-center text-lg-start mb-5 ">
+                <table class="mx-auto" >
+                  <thead class="opacity-75">
+                    <tr>
+                      <th><p class="text-black">🔥 Trending</p></th>
+                      <th></th>
+                      <th class="more_link"  ><a href="#" class="more"><p>More></p></a></th>
+                    </tr>
+                    <tr>
+                      <th class="fw-normal">Name</th>
+                      <th class="fw-normal">Price</th>                   
+                      <th class="fw-normal">Chart</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="border-bottom" >
+                      <td><img src="images/bitcoin.jpg" alt="btc"> Bitcoin</td>
+                      <td><span class="plus">+</span>$43,180.13</td>                    
+                      <td class="px-3"><img src="images/yesil.jpg" alt=""></td>
+                    </tr>
+                    <tr class="border-bottom">
+                      <td><img src="images/ethereum.jpg" alt="eth"> Ethereum</td>
+                      <td><span class="decrease">+</span>$3,480.65</td>                   
+                      <td class="px-3"><img src="images/kirmizi.jpg" alt=""></td>
+                    </tr>
+                    <tr class="border-bottom">
+                      <td><img src="images/solana.jpg" alt="solana"> Solana</td>
+                      <td><span class="plus">+</span>$150,20</td>                   
+                      <td class="px-3"><img src="images/yesil.jpg" alt=""></td>
+                    </tr>
+                    <tr >
+                      <td><img src="images/Dogecoin.jpg" alt="dogecoin"> Dogecoin</td>
+                      <td><span class="plus">+</span>$0,1572</td>                    
+                      <td class="px-3"><img src="images/yesil.jpg" alt=""></td>
+                    </tr>
+                  </tbody>
+                </table>
+              
+            </div>
+
+
+            </div>
+            <div class="col-sm-12 col-lg-6 col-xl-4 border-end">
+              
+              <div class="mb-5 text-center text-lg-start">
+              <table class="mx-auto ">
+                <thead class="opacity-75">
+                  <tr>
+                    <th><p class="text-black">🚀 Top Gainers</p></th>
+                    <th></th>
+                    <th class="more_link"  ><a href="#" class="more"><p>More></p></a></th>
+                  </tr>
+                  <tr>
+                    <th class="fw-normal">Name</th>
+                    <th class="fw-normal">Price</th>                   
+                    <th class="fw-normal">Chart</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="border-bottom" >
+                    <td><img src="images/bitcoin.jpg" alt="btc"> Bitcoin</td>
+                    <td><span class="plus">+</span>$43,180.13</td>                    
+                    <td class="px-3"><img src="images/positive_chart.jpg" alt="chart"></td>
+                  </tr>
+                  <tr class="border-bottom">
+                    <td><img src="images/ethereum.jpg" alt="eth"> Ethereum</td>
+                    <td><span class="decrease">+</span>$3,480.65</td>                   
+                    <td class="px-3"><img src="images/negative_chart.jpg" alt="chart"></td>
+                  </tr>
+                  <tr class="border-bottom">
+                    <td><img src="images/solana.jpg" alt="solana"> Solana</td>
+                    <td><span class="plus">+</span>$150,20</td>                   
+                    <td class="px-3"><img src="images/positive_chart.jpg" alt="chart"></td>
+                  </tr>
+                  <tr >
+                    <td><img src="images/Dogecoin.jpg" alt="dogecoin"> Dogecoin</td>
+                    <td><span class="plus">+</span>$0,1572</td>                    
+                    <td class="px-3"><img src="images/positive_chart.jpg" alt="chart"></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+
+
+            </div>
+            
+            <div class="col-sm-12 col-lg-6 col-xl-4  ">
+
+              <div class="mb-5 text-center text-lg-start">
+
+                <table class="mx-auto ">
+                  <thead class="opacity-75">
+                    <tr>
+                      <th><p class="text-black">💎 Recently Added</p></th>
+                      <th></th>
+                      <th class="more_link" ><a href="#" class="more"><p>More></p></a></th>
+                    </tr>
+                    <tr>
+                      <th class="fw-normal">Name</th>
+                      <th class="fw-normal">Price</th>                   
+                      <th class="fw-normal">Chart</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="border-bottom" >
+                      <td><img src="images/bitcoin.jpg" alt="btc"> Bitcoin</td>
+                      <td><span class="plus">+</span>$43,180.13</td>                    
+                      <td class="px-3"><img src="images/positive_chart.jpg" alt="chart"></td>
+                    </tr>
+                    <tr class="border-bottom">
+                      <td><img src="images/ethereum.jpg" alt="eth"> Ethereum</td>
+                      <td><span class="decrease">+</span>$3,480.65</td>                   
+                      <td class="px-3"><img src="images/negative_chart.jpg" alt="chart"></td>
+                    </tr>
+                    <tr class="border-bottom">
+                      <td><img src="images/solana.jpg" alt="solana"> Solana</td>
+                      <td><span class="plus">+</span>$150,20</td>                   
+                      <td class="px-3"><img src="images/positive_chart.jpg" alt="chart"></td>
+                    </tr>
+                    <tr >
+                      <td><img src="images/Dogecoin.jpg" alt="dogecoin"> Dogecoin</td>
+                      <td><span class="plus">+</span>$0,1572</td>                    
+                      <td class="px-3"><img src="images/positive_chart.jpg" alt="chart"></td>
+                    </tr>
+                  </tbody>
+                </table>
+              
+            </div>
+
+
+
+
+            </div>
+            
+          </div>
+          </div>
+        </div>
+        
+      </section>
+
+
+
+      <section>
+        <div class="container">
+          <div class="row align-items-center justify-content-center ">
+
+            <div class="col-sm-12 col-lg-6  order-1 order-lg-2 ">
+              <img class="img-fluid" src="images/moneybox.jpg" alt="moneybox">
+            </div>
+            <div class="col-sm-12 col-lg-6  order-2 order-lg-1 ">
+              <div class="buy-text-content">
+              <h2 class="fw-bolder ">Buy & trade on the original crypto exchange.</h2>
+              <p class="opacity-75">Buy now and get 40% extra bonus Minimum pre-sale amount 25 Crypto Coin. <br class="d-lg-none d-sm-none  d-xxl-block"> We accept BTC crypto-currency</p>
+              <br>
+              <form class="my-3 deneme1 ">
+                <div class="d-flex gap-2">
+                    <span class="label-wrapper">
+                        <label for="inputOne" class="label-one">Amount</label>
+                    </span>
+                    <input class="text-input" placeholder="5,000" type="text" id="inputOne">
+                    <select class="select-1 d-flex justify-content-center align-items-center" name="currency" id="currency">
+                        <option selected="" value="USD">
+                            USD</option>
+                        <option value="BTC">BTC</option>
+                    </select>
+                </div>
+                <div>
+                    <br>
+                    <div class="d-flex gap-2">
+                        <span class="label-wrapper">
+                            <label for="inputTwo" class="label-two">Get</label>
+                        </span>
+                        <input type="number" id="inputTwo" placeholder="0.10901">
+                        <select class="select-2 d-flex justify-content-center align-items-center" name="currency" id="currency">
+                            <option selected="" value="BTC">BTC</option>
+                            <option value="USD">USD</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="d-flex  ">
+                <button type="button" class="btn btn-primary mt-4 rounded-pill " id="buyNow">
+                    Buy Now
+                </button> 
+                </div>               
+            </form>             
+          </div>
+          </div>
+        </div>
+      </section>
+
+
+
+<!-- MARKALARIN BULUNDUĞU SECTION -->
+
+      <section class="my-5 section-third">
+        <div class="container-fluid  mx-5 ">
+          <div class="row justify-content-center py-5 ">
+            <div class="col">
+              <div class="text-center">
+                <h2>Trusted Partners Worldwide</h2>
+                <p class="opacity-75 pt-4 mb-0 ">We're partners with countless major organisations around the globe</p>
+              </div>
+            </div>
+          </div>
+          <div class="row text-center pb-4">
+            <div class="col-lg-3 ">
+              <img class="img-fluid" src="images/clever.png" alt="">
+            </div>
+            <div class="col-lg-3 ">
+              <img class="img-fluid" src="images/diamond.png" alt="">
+            </div>
+            <div class="col-lg-3 ">
+              <img class="img-fluid" src="images/swiss.png" alt="">
+            </div>
+            <div class="col-lg-3 ">
+              <img class="img-fluid" src="images/gambio.png" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+
+      <section class="section-creditcards">
+        <div class="container">
+          <div class="row justify-content-center align-items-center gx-5">
+            <div class="col-lg-6 col-sm-12 pb-5 ">
+              <img class="img-fluid" src="images/kart.jpg" alt="">
+            </div>            
+            <div class="col-lg-6 col-sm-12">
+              <div class="px-5">
+              <h2 class="fw-bolder">Introducing the <span class="highlight-words">NEFA</span> Credit Card</h2>
+              <p class="opacity-75 my-4">Subject to cardholder and rewards terms which will be available at application.</p>
+              <ul>
+                <li class="d-block"> <i class="bi bi-check-circle-fill text-primary"></i> Up to 3% back on purchases</li>
+                <li class="d-block my-4"><i class="bi bi-check-circle-fill text-primary"></i> Earn rewards in bitcoin or any crypto on NEFA</li>
+                <li class="d-block"><i class="bi bi-check-circle-fill text-primary"></i> No annual fee</li>
+              </ul>
+              <button type="button" class="btn btn-outline-primary rounded-5 px-5 py-2 mt-4">Join the waitlist</button>
+             </div>
+            </div>           
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+      <section class="my-5 py-5 section-fourth">
+        <div class="container">
+          <div class="row justify-content-center align-items-center">
+
+            
+
+
+            <div class="col-lg-6 col-sm-12 order-2 order-lg-1 ">
+              <div class="text-sm-center text-xl-start ">
+              <h2 class="fw-bolder">Advanced Trading <span class="highlight-words">Tools</span></h2>
+              </div>
+              <h4 class="mt-4">Professional Access, Non-stop Availability</h4>
+              <p class="opacity-75">We provide premium access to crypto trading for both individuals and institutions through high liquidity, reliable order execution and constant uptime.</p>
+
+              <h4 class="mt-5">A Range of Powerful Apis</h4>
+              <p class="opacity-75">Set up your own trading interface or deploy your algorithmic strategy with our high-performance FIX and HTTP APIs. Connect to our WebSocket for real-time data streaming.</p>
+
+              <h4 class="mt-5">Customer Support</h4>
+              <p class="opacity-75">Premium 24/7 support available to all customers worldwide by phone or email. Dedicated account managers for partners.</p>
+              <div class="mt-5">
+                <button type="button" class="btn btn-outline-primary rounded-5 px-5 py-2 ">Get Started</button>
+                <a class="mx-2" href="#">Learn More</a>
+              </div>
+            </div>
+
+            <div class="col-lg-6 col-sm-12 order-1 order-lg-2">
+              <img class="img-fluid" src="images/2.png" alt="">
+            </div>  
+
+          </div>
+        </div>
+      </section>
+
+
+     
+
+      <section class="section-industry">
+        <div class="container">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-sm-12 col-lg-6 ">
+              <img class="img-fluid" src="images/1.jpg" alt="">
+            </div>
+            <div class="col-sm-12 col-lg-6 ">
+
+              <h2 class="fw-bolder">Industry-leading security from day one</h2>
+              <h4 class="mt-5"><i  class="bi bi-check-circle-fill fs-6 text-primary"></i> Safety, security and compliance</h4>
+              <p class="opacity-75">NEFA is a licensed New York trust company that undergoes regular bank exams and is subject to the cybersecurity audits conducted by the New York Department of Financial Services. Learn more about our commitment to security.</p>
+
+              <h4 class="mt-5"><i  class="bi bi-check-circle-fill fs-6 text-primary"></i> Hardware security keys</h4>
+              <p class="opacity-75">With NEFA you can secure your account with a hardware security key via WebAuthn.</p>
+
+              <h4 class="mt-5"><i  class="bi bi-check-circle-fill fs-6 text-primary"></i> SOC Certifications</h4>
+              <p class="opacity-75">NEFA is SOC 1 Type 2 and SOC 2 Type 2 compliant. We are the world’s first cryptocurrency exchange and custodian to complete these exams.</p>
+              
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+      
+
+      <section class="my-5 py-5 section-seventh ">
+        <div class="container position-relative ">
+          <div class="row justify-content-center align-items-center text-center rounded-4 mb-5">
+            <div class="col-sm-12 col-md-12 col-lg-4 ">
+              <h2 class="fw-bolder">Get started in just a few minutes</h2>
+            </div>
+          </div>
+          <div class="row justify-content-center align-items-center text-center">
+            <div class="col">
+              <div class="section-seventh-cols">
+              <img class="img-fluid" src="images/sign_up.png" alt="sign_up">
+              <h2>Sign Up</h2>
+              <p class="opacity-75">Buy Bitcoin or Ethereum, then securely store it in your Wallet or send it on easily to friends</p>
+            </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-4">
+              <div class="section-seventh-cols">
+              <img class="img-fluid" src="images/fund.png" alt="sign_up">
+              <h2>Fund</h2>
+              <p class="opacity-75">Choose your preferred payment method such as bank transfer or credit card to top up your NEFA Wallet</p>
+            </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-4">
+              <div class="section-seventh-cols">
+              <img class="img-fluid" src="images/buy_crypto.png" alt="sign_up">
+              <h2>Buy Crypto</h2>
+              <p class="opacity-75">Sign up for your free NEFA Wallet on web, iOS or Android and follow our easy process to set up your profile</p>
+            </div>
+
+            <div class="d-none d-xxl-block text-center text-lg-start">
+              <img class=" img-fluid section-seventh-arrow-first position-absolute" src="images/arrow.png" alt="arrow">
+              <img class=" img-fluid section-seventh-arrow-second position-absolute" src="images/arrow.png" alt="arrow">
+    
+            </div>
+
+
+            </div>
+
+
+          </div>
+        </div>
+      </section> 
+
+
+
+      <!-- SIK SORULAN SORULAR KISMI -->
+
+      <section class="questions_nefa">
+        <div class="container">
+          <div class="row justify-content-center align-items-center">
+
+            <div class="col-lg-6 col-sm-12 position-relative">
+              <img class="img-fluid"  src="images/asked_questions.jpg" alt="asked_questions">
+
+              <div class="position-absolute section-eight-cardano d-none d-xl-block text-center text-lg-start">
+                <img class="img-fluid section-eight-cardano" src="images/cardano_coin.png" alt="cardano">
+                
+              </div>
+      
+              <div class="position-absolute section-eight-dogecoin d-none d-xl-block text-center text-lg-start">
+                <img class="img-fluid" src="images/dogecoin.png" alt="dogecoin">
+              </div> 
+
+
+            </div>
+
+            <div class="col-lg-6 col-sm-12">
+              <div class="text-sm-start" >
+              <p class="text-primary fw-bolder">SUPPORT</p>
+              <h2 class="fw-bolder">Frequently asked questions</h2>
+              </div>
+
+              <button class="accordion bg-white"><h5>Why should I choose NEFA?</h5></button>
+              <div class="panel">
+              <p class="opacity-75">We're industry pioneers, having been in the cryptocurrency industry since 2016. We've facilitated more than 21 billion USD worth of transactions on our exchange for customers in over 40 countries. Today, we're trusted by over 8 million customers around the world and have received praise for our easy-to-use app, secure wallet, and range of features.</p>
+              </div>
+
+              <button class="accordion bg-white border-top"><h5>How secure is NEFA?</h5></button>
+              <div class="panel">
+              <p class="opacity-75">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              </div>
+
+              <button class="accordion bg-white border-top"><h5>How secure is NEFA?</h5></button>
+              <div class="panel">
+              <p class="opacity-75">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              </div>
+
+              <button class="accordion bg-white border-top border-bottom"><h5>How do I actually buy Bitcoin?</h5></button>
+              <div class="panel">
+              <p class="opacity-75">We're industry pioneers, having been in the cryptocurrency industry since 2016. We've facilitated more than 21 billion USD worth of transactions on our exchange for customers in over 40 countries. Today, we're trusted by over 8 million customers around the world and have received praise for our easy-to-use app, secure wallet, and range of features.</p>
+              </div>
+            
+
+            </div>
+            </div>
+
+          </div>
+        </div>
+
+
+      </section>
+
+
+
+<!-- YUKARI BUTONU -->
+      <section class="my-5">
+        <div class="container">
+          <div class="row justify-content-center align-items-center text-center">
+            <div class="col">
+              <a href="#">
+              <button type="button" class=" up-button text-secondary">
+                Back to top<i class="bi bi-arrow-up"></i>
+              </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+
+
+      <footer class="footer mt-5 ">
+      <div class="container footer-container">
+        
+        <div class="row ">
+        <div class=" col-lg-3 col-md-12 col-sm-12 ">
+          <div class="mt-3 ">
+          <img class="logo" src="./images/company_logo.jpg" alt="NEFA">
+          </div>
+        </div>
+
+        <div class=" col-lg-2 col-md-12 col-sm-12 ">
+          <div class=" text-sm-start text-lg-center">
+          <ul class="list-unstyled">
+            <li><a href="#">Buy Crypto</a></li>
+            <li><a href="#">Exchanges</a></li>
+            <li><a href="#">Watchlist</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">NFT</a></li>
+
+          </ul>
+        </div>
+        </div>
+        <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-12 col-sm-12  ">
+          <div class=" text-sm-start text-lg-center">
+          <ul class="list-unstyled">
+            <li><a href="#">Buy Crypto</a></li>
+            <li><a href="#">Exchanges</a></li>
+            <li><a href="#">Watchlist</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">NFT</a></li>
+   
+          </ul>
+          </div>
+        </div>
+        <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-12 col-sm-12 ">
+          <div class=" text-sm-start text-lg-center">
+          <ul class="list-unstyled">
+      
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Help Center</a></li>
+          </ul>
+          </div>
+        </div>
+        
+        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-12 col-sm-12  ">
+          <div class="row mt-3 text-sm-start ">
+          <div class="mt-3 ">
+          <p>Newsletter</p>
+          <p>Never miss anything crypto when <br> you're on the go</p>
+            <div class="d-flex   ">
+            <input type="email" class="form-control rounded-4" id="email" placeholder="Enter your email">
+            <button type="button" class="btn btn-primary mx-1 px-3 rounded-4 text-center text-md-end ">
+              <i class="bi bi-arrow-right"></i>
+            </button>
+            </div>
+          </div>
+        </div> 
+        
+      
+      </div>
+      
+      </div>
+
+      <div class="row text-center mt-5">
+        <div class="col">
+          <p>©Beyza ASLAN 2023 NEFA LLC. All rights reserved</p>
+        </div>
+      </div>
+    </footer>
+
+
+
+    <script src="acordion.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+  </body>
+</html>
+ 
